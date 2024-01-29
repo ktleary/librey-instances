@@ -2,6 +2,10 @@
 
 View librey instances in your terminal.
 
+Dependencies:
+
+- requires node 18+ for fetch
+
 Installation:
 
 - Clone this repo
@@ -33,6 +37,6 @@ https://search.seitan-ayoub.lol/
 https://librey.myroware.net/  
 https://librey.nezumi.party/  
 https://search.zeroish.xyz/  
-https://search.zeroish.xyz/  
+https://search.zeroish.xyz/
 
 Note: The provided HTML file does not work due to CORS restrictions. You can use the above script to get the list of instances in your terminal.
