@@ -1,45 +1,43 @@
-### Librey Instances
+## Librey Instances Viewer
 
-View librey instances in your terminal.
+This script allows you to view Librey instance URLs directly in your terminal. It's a convenient tool for quickly accessing a list of Librey instances.
 
-Dependencies:
+### Prerequisites
 
-- requires node 18+ for fetch
+- [Node.js](https://nodejs.org/) version 18 or higher.
 
-Installation:
+### Installation
 
-- Clone this repo
+1. **Clone the Repository:**
 
-Run:
+```bash
+   git clone <repository-url>
+```
+
+2. Navigate to the Repository Folder:
+
+```bash
+cd path/to/repository
+```
+
+### Usage
+
+1. Run the script:
 
 ```bash
 node librey-instances.js instances
 ```
 
-Sample Output:
+2. Sample Output:
 
-https://search.ahwx.org/  
-https://search2.ahwx.org/  
-https://search3.ahwx.org/  
-https://ly.owo.si/  
-https://librey.org/  
-https://search.davidovski.xyz/  
-https://glass.prpl.wtf  
-https://librex.uk.to/  
-https://librey.ix.tc/  
-https://search.funami.tech/  
-https://librex.retro-hax.net/  
-https://librex.nohost.network/  
-https://search.pabloferreiro.es/  
-https://librey.baczek.me/  
-https://lx.benike.me/  
-https://search.seitan-ayoub.lol/  
-https://librey.myroware.net/  
-https://librey.nezumi.party/  
-https://search.zeroish.xyz/  
-https://search.zeroish.xyz/
+```perl
+https://search.ahwx.org/
+https://search2.ahwx.org/
+https://search3.ahwx.org/
+// ... rest of the instances
+```
 
-Note: The provided HTML file does not work due to CORS restrictions. You can use the above script to get the list of instances in your terminal.
+_Note: The provided HTML file does not work due to CORS restrictions. You can use the above script to get the list of instances in your terminal._
 
 #### Creating an Alias (Optional)
 
@@ -98,3 +96,7 @@ showlibrey
 ```
 
 This setup will enable you to quickly and easily view Librey instances from the terminal.
+
+## Contact
+
+For additional queries or suggestions, feel free to contact ktleary@gmail.com
