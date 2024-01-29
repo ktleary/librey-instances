@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>View Instances</title>
+    <script>
+      // This function will fetch the data and update the UI
+      async function fetchAndDisplayInstances() {
+        try {
+          const response = await fetch(
+            'https://search.ahwx.org/instances.json',
+          );
+          const data = await response.json();
+          const instances = data.instances.filter(
+            instance => instance.clearnet,
+          );
+
+          const instancesDisplay = document.getElementById('instancesDisplay');
+          instancesDisplay.innerHTML = '';
+
+          instances.forEach(instance => {
+            instancesDisplay.innerHTML += `<div><a href="${instance.clearnet}" target="_blank">${instance.clearnet}</a></div>`;
+          });
+        } catch (error) {
+          console.error('Error fetching instances:', error);
+        }
+      }
+
+      // Call the function when the window loads
+      window.onload = fetchAndDisplayInstances;
+    </script>
+  </head>
+  <body>
+    <h1>Instances</h1>
+    <div id="instancesDisplay"></div>
+  </body>
+</html>

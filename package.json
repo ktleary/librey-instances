@@ -1,0 +1,27 @@
+{
+  "name": "librey-instances",
+  "version": "1.0.0",
+  "description": "get librey instances",
+  "main": "librey-instances.js",
+  "scripts": {
+    "test": "null"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ktleary/librey-instances.git"
+  },
+  "keywords": [
+    "librey",
+    "alternative",
+    "frontend",
+    "privacy",
+    "google",
+    "search"
+  ],
+  "author": "ktleary",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/ktleary/librey-instances/issues"
+  },
+  "homepage": "https://github.com/ktleary/librey-instances#readme"
+}
