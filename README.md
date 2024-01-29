@@ -1,6 +1,6 @@
 ## Librey Instances Viewer
 
-This script allows you to view Librey instance URLs directly in your terminal. It's a convenient tool for quickly accessing a list of Librey instances.
+This script allows you to view active Librey instance URLs directly in your terminal. It fetches data from a service that dynamically provides a list of currently active instances, ensuring that the displayed links are up-to-date and functional. This tool is particularly useful for quickly accessing and verifying the availability of Librey instances without having to deal with potentially outdated or inactive links.
 
 ### Prerequisites
 
