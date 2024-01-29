@@ -9,7 +9,7 @@ Installation:
 Run:
 
 ```bash
-node libreyinstances.js instances
+node librey-instances.js instances
 ```
 
 Sample Output:
